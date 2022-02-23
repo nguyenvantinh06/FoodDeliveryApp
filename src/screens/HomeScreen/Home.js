@@ -1,17 +1,18 @@
-import { View, Text, SafeAreaView, TouchableOpacity, StyleSheet, Flatlist, Image } from 'react-native';
+import {SafeAreaView, StyleSheet } from 'react-native';
 import React from 'react';
 import Constants from 'expo-constants';
 
 //Constant
-import {icons, images, COLORS, SIZES, FONTS} from "../../constants";
+import {COLORS} from "../../constants";
 
 //Components
-import { HomeHeader } from './components';
+import { HomeHeader, MainCategories } from './components';
 
 const Home = () => {
   return (
     <SafeAreaView style={styles.container}>
       <HomeHeader />
+      <MainCategories />
     </SafeAreaView>
   )
 }

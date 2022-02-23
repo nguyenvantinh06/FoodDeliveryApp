@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native'
 import React, {useState} from 'react'
 
 //Constants
-import {FONTS, SIZES, COLORS, icons, images} from "../../../constants";
+import {FONTS, SIZES, COLORS, icons} from "../../../constants";
 
 // Custom Components
 // Icon Button Header Home
